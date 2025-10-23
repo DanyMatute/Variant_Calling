@@ -1,0 +1,20 @@
+# Ignore large bioinformatics files
+*.bam
+*.bai
+*.vcf
+*.vcf.gz
+*.fa
+*.fasta
+*.fai
+
+# Optional: other large or temporary files
+*.sam
+*.fastq
+*.fastq.gz
+*.bed
+*.log
+*.tmp
+*.swp
+*.zip
+*.tar.gz
+
