@@ -87,7 +87,7 @@
         
     </details>
 
-## Everything seems fine. 👍
+Everything seems fine. 👍
 You just stopped the BWA alignment early. 
 
 ➡️ Re run BWA
