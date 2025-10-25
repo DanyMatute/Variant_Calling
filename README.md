@@ -47,6 +47,14 @@ Reads were aligned to the GRCh38/hg38 reference genome using BWA-MEM, followed b
 | ESTIMATED_LIBRARY_SIZE (number of unique DNA fragments)       | 1,383,600,948 |
 | Base-level error rate in aligned reads                 | 0.45% |
 
+<p>
+  <img src="https://github.com/DanyMatute/Variant_Calling/blob/main/Insert_size_histogram.png" alt="Alt Text" style="width:50%; height:auto; ">
+  
+  <em>The insert size distribution for SRR062634_sorted_dedup_bqsr_reads.bam shows a single peak around ~180 bp with a narrow standard deviation, indicating consistent library preparation and proper fragment length. No secondary peaks or abnormal broadening were observed.</em>
+</p>
+
+
+
 ## Variant Calling Matrics
 | Metric                             | Result    |
 | ---------------------------------- | --------- |
@@ -82,7 +90,12 @@ Reads were aligned to the GRCh38/hg38 reference genome using BWA-MEM, followed b
         - Poor filtering (keeping low-quality calls).
     - Or, it’s not human (some non-model organism).
     - Or, you’re still before final filtering, but we have done filtering
-
+<p>
+  <img src="https://github.com/DanyMatute/Variant_Calling/blob/main/snps_substitution_types.png" alt="Alt Text" style="width:30%; height:auto; ">
+  <img src="https://github.com/DanyMatute/Variant_Calling/blob/main/indel_distribution.png" alt="Alt Text" style="width:35%; height:auto; ">
+  <img src="https://github.com/DanyMatute/Variant_Calling/blob/main/snps_ts-tv_statified.png" alt="Alt Text" style="width:30%; height:auto; ">
+  <em></em>
+</p>
 
 ## Annotation Metrics
 
