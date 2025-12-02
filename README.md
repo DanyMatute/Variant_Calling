@@ -33,11 +33,11 @@ Reads were aligned to the GRCh38/hg38 reference genome using BWA-MEM, followed b
 | Fraction of chimeric reads                | 0.17% |
 | Base-level error rate in aligned reads                 | 0.45% |
 
-- ~99.6% of reads aligned → your reference genome matches your sequencing sample well.
-- Low mismatch & error rates → good sequencing quality.
-- Proper pairing >99% → library prep and read pairing are consistent.
-- Low chimera and adapter rates → minimal contamination or sequencing artifacts.
-- 2.3% improper pairs → slightly above perfect but completely normal (typically under 5% is fine).
+- ~99.6% of reads aligned = the reference genome matches the sequencing sample well.
+- Low mismatch & error rates = good sequencing quality.
+- Proper pairing >99% = library prep and read pairing are consistent.
+- Low chimera and adapter rates = minimal contamination or sequencing artifacts.
+- 2.3% improper pairs = slightly above perfect but completely normal (typically under 5% is fine).
 - **Overall, this alignment is clean, high-quality, and ready for variant calling.**
 
 ## DuplicationMetrics
